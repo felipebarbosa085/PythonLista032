@@ -7,12 +7,12 @@ branc = int(input("Qual a quantidade de votos brancas?"))
 nul =  int(input("Qual a quantidade de votos nulos?"))
 val = int(input("Qual a quantidade de votos validados"))
 
-n = numttele/100
-t = branc/100
-f = nul/100
-e = val/100
+n = numttele/branc*100
+t = numttele/nul*100
+f = numttele/val*100
 
-print(n,"%")
-print(t,"%")
-print(f,"%")
-print(e,"%")
+print("Resultados das eleições:")
+print("O valor de votos brancos é",n,"%")
+print("O valor de votos nulos é",t,"%")
+print("O valor de votos validados é",f,"%")
+
