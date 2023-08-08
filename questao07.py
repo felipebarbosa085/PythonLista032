@@ -4,8 +4,8 @@ pergunte um valor de uma compra, o número de prestações escolhidas e apresent
 prestações
 """
 
-val = int(input("Qua o valor da compra?"))
-num = int(input("Qual o numero de prestações?"))
+val = float(input("Qua o valor da compra?"))
+num = float(input("Qual o numero de prestações?"))
 
 ter = val/num
-print("O valor a ser paga é",ter)
+print("O valor de cada prestação a ser paga é R$",ter)
